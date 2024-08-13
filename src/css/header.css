@@ -1,0 +1,22 @@
+.headerClass {
+    padding: 20px 0px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.306);
+    
+    z-index: 1000;
+}
+
+.leftHeaderClass {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.dashboardClass {
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

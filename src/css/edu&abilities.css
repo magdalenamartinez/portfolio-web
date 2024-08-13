@@ -1,0 +1,68 @@
+.mapClass {
+    padding: 20px 30px;
+}
+
+.abilitiesBox {
+    padding: 20px 30px;
+    margin-left: 30px;
+}
+
+.groupClass {
+    background-color: aqua;
+    height: 100vh;
+}
+
+.ab_box {
+    background-color: rgb(242, 249, 245);
+    color: black;
+    margin: 0px 30px;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 20px;
+}
+
+
+.skillbar {
+    background-color: rgba(62, 0, 101, 0);
+    border-radius: 10px;
+    height: 20px;
+}
+
+
+.level {
+    background-color: rgb(198, 33, 99);
+    height: 20px;
+    border-radius: 10px;
+}
+
+.itemClass {
+    display: flex;
+    flex-direction: column;
+}
+.itemNameClass {
+    padding: 20px 0px;
+    font-size: 1.3em;
+}
+
+.buttonClass {
+    flex: 0.1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: none;
+    border: none;
+    padding: 0px 20px;
+}
+
+.skillsContainer {
+    flex:1;
+    min-height: 300px;
+}
+
+.abContainer {
+    min-height: 80vh;
+}
+.mapImageClass {
+    border-radius: 20px;
+    padding: 20px;
+}

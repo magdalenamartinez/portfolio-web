@@ -1,0 +1,22 @@
+.contactBox {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.spaceAfter {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.paddingLeft {
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.imageClass {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}

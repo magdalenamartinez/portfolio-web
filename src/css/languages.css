@@ -1,0 +1,81 @@
+.languagesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
+.circleBox {
+    position: relative; 
+    width: 200px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.iconClassLanguage {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    transition: opacity 0.7s ease, width 0.7s ease, height 0.7s ease; 
+    z-index: 2;
+}
+
+.circleBox:hover .iconClassLanguage {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+.hoverCircle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    background: linear-gradient(to bottom, rgba(187, 18, 142, 0.867) , rgba(231, 76, 60, 1) 80%);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transition: opacity 0.7s ease, width 0.7s ease, height 0.7s ease;
+    z-index: 1;
+}
+
+.circleBox:hover .hoverCircle {
+    opacity: 1;
+}
+
+.spanCircleText {
+    opacity: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    transition: opacity 0.7s ease;
+}
+
+.circleBox:hover .spanCircleText {
+    opacity: 1;
+}
+
+.buttonLanguage {
+    text-decoration: none;
+    border: 0;
+    background: none;
+    padding: 0;
+    padding: 0px 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.languageClass {
+    width: 30px;
+    cursor: pointer;
+}
+
+.languageClass:hover {
+    opacity: 0.8;
+}

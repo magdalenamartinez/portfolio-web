@@ -1,0 +1,17 @@
+.ulClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.liClass {
+    padding: 10px 20px;
+}
+
+.linkClass {
+    text-decoration: none;
+    color: white;
+}

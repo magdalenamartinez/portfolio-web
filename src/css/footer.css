@@ -1,0 +1,16 @@
+.footerContainer {
+    height: 100px;
+    background: linear-gradient(to right, rgba(187, 18, 142, 0.867), rgba(231, 76, 60, 0.867));
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.footerContent {
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+}

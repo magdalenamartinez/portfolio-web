@@ -1,0 +1,61 @@
+
+
+.Text_1 {
+    font-size: 1em;
+}
+
+.Text_1_5 {
+    font-size: 1.5em;
+}
+
+.Text_2 {
+    font-size: 2em;
+}
+
+.Text_8 {
+    font-size: 7em;
+}
+
+.Text_4 {
+    font-size: 4em;
+}
+
+.title_center {
+    font-size: 4em;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0px;
+    padding: 20px 0px;
+    border-radius: 35px;
+    color: black;
+    background: linear-gradient(to right, rgba(187, 18, 142, 0.8) , rgba(231, 76, 60, 0.8) 80%);
+}
+
+.Text_Color_1 {
+    color: rgb(72, 72, 72);
+}
+
+.Text_Box_1 {
+    background-color: rgb(198, 33, 99);
+    color: aliceblue;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.Black_Box {
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+}
+
+.title_margin {
+    margin-bottom: 30px;
+}
+
+.itemClass {
+    margin-bottom: 20px;
+}
+
+.skillsContainer {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,10 @@
+import './flex.css';
+import './general.css';
+import './header.css';
+import './icon.css';
+import './list.css';
+import './text.css';
+import './edu&abilities.css';
+import './languages.css';
+import './footer.css';
+import './contact.css';
