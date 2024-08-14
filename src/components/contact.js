@@ -5,9 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import mePhoto from './../assets/me.jpg';
+import { Reveal } from './reveal.tsx';
 
 const Contact = () => {
     return(
+      <Reveal>
         <div className='bodyClass'>
           <div className="flexContainer boxClass">
             <div className="flex_1">
@@ -21,6 +23,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        </Reveal>
     );
 }
 
