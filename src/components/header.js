@@ -19,8 +19,8 @@ const Header = () => {
     <div className="headerClass">
         <div className='flex_1'>
             <div className='leftHeaderClass'>
-                <FontAwesomeIcon icon={faClipboard} className='iconClass'/>
-                <h1 className='Text_2'>{t('portfolio')}</h1>
+                <FontAwesomeIcon icon={faClipboard} style={{"color":"white"}} className='iconClass'/>
+                <h1 className='Text_2' style={{"color":"white"}}>{t('portfolio')}</h1>
             </div>
         </div>
         <div className='flex_1'>
