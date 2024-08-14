@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 16px;
     scroll-behavior: smooth;
+    background-color: black;
 }
 
 .generalClass {
@@ -21,6 +22,7 @@
 
 .subtitleClass {
     padding-top: 20px;
+    color: white;
 }
 
 .bodyClass {
