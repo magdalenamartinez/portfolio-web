@@ -10,11 +10,12 @@ import i18n from './i18n/i18n';
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header/>
         <Routes>
-          <Route path='https://magdalenamartinez.github.io/portfolio-web/' element={<Index/>} />
-          <Route path='https://magdalenamartinez.github.io/portfolio-web/contact' element={<Contact/>} />
+          <Route path='/' element={<Index/>} />
+          <Route path='/contact' element={<Contact/>} />
+          <Route path="*" element={<Index />} /> 
         </Routes>
         <Footer/>
       </Router>

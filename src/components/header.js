@@ -27,10 +27,10 @@ const Header = () => {
         </div>
         <nav className='flex_1'>
             <ul className='ulClass'>
-                <li className='liClass'><a className="linkClass" href="https://magdalenamartinez.github.io/portfolio-web/">{t('home')}</a></li>
+                <li className='liClass'><a className="linkClass" href="/">{t('home')}</a></li>
                 <li className='liClass'><a className="linkClass" href={curriculum} download="curriculum.pdf">{t('resume')}</a></li>
                 <li className='liClass'><a className="linkClass" href="#Projects">{t('projects')}</a></li>
-                <li className='liClass'><a className="linkClass" href="https://magdalenamartinez.github.io/portfolio-web/contact">{t('contact')}</a></li>
+                <li className='liClass'><a className="linkClass" href="/contact">{t('contact')}</a></li>
             </ul>
         </nav>
         <div>
