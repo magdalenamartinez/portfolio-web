@@ -6,6 +6,9 @@ import { useTranslation } from 'react-i18next';
 import spanishIco from '../assets/spain.png';
 import  englishIco from '../assets/uk.png';
 import frenchIco from '../assets/france.png';
+import { Link } from 'react-router-dom';
+
+
 const Header = () => {
     const { i18n, t } = useTranslation();
 
@@ -25,17 +28,15 @@ const Header = () => {
             <button onClick={() => changeLanguage('es')} className='buttonLanguage'><img src={spanishIco} alt={"ES"} className="languageClass"/></button>
             <button onClick={() => changeLanguage('fr')} className='buttonLanguage'><img src={frenchIco} alt={"FR"} className="languageClass"/></button>
         </div>
+      
         <nav className='flex_1'>
             <ul className='ulClass'>
-                <li className='liClass'><a className="linkClass" href="/">{t('home')}</a></li>
+                <li className='liClass'><Link className="linkClass" to="/">{t('home')}</Link></li>
                 <li className='liClass'><a className="linkClass" href={curriculum} download="curriculum.pdf">{t('resume')}</a></li>
-                <li className='liClass'><a className="linkClass" href="#Projects">{t('projects')}</a></li>
-                <li className='liClass'><a className="linkClass" href="/contact">{t('contact')}</a></li>
+                <li className='liClass'><Link className="linkClass" to="#Projects">{t('projects')}</Link></li>
+                <li className='liClass'><Link className="linkClass" to="/contact">{t('contact')}</Link></li>
             </ul>
         </nav>
-        <div>
-       
-      </div>
     </div>
     );
 }
