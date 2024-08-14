@@ -18,13 +18,13 @@ const Contact = () => {
             <div className="flex_2 contactBox">
               <h1 className="Text_4 spaceAfter">Magdalena Martínez Sánchez</h1>
               <h2 className="Text_1_5 paddingLeft"><FontAwesomeIcon icon={faEnvelope} className='iconClass_1'/>
-                <a href="mailto:magdalena.martinezsanchez01@gmail.com" className="linkClass">magdalena.martinezsanchez01@gmail.com</a>
+                <a href="mailto:magdalena.martinezsanchez01@gmail.com" className="linkClass2">magdalena.martinezsanchez01@gmail.com</a>
               </h2>
               <h2 className="Text_1_5 paddingLeft"><FontAwesomeIcon icon={faGithub} className='iconClass_1'/>
-                <a href="https://github.com/magdalenamartinez" target="_blank" rel="noopener noreferrer" className="linkClass">https://github.com/magdalenamartinez</a>
+                <a href="https://github.com/magdalenamartinez" target="_blank" rel="noopener noreferrer" className="linkClass2">https://github.com/magdalenamartinez</a>
               </h2>
               <h2 className="Text_1_5 paddingLeft"><FontAwesomeIcon icon={faLinkedin} className='iconClass_1'/>
-                <a href="https://www.linkedin.com/in/magdalena-martinez-sanchez" target="_blank" rel="noopener noreferrer" className="linkClass">www.linkedin.com/in/magdalena-martinez-sanchez</a>
+                <a href="https://www.linkedin.com/in/magdalena-martinez-sanchez" target="_blank" rel="noopener noreferrer" className="linkClass2">www.linkedin.com/in/magdalena-martinez-sanchez</a>
               </h2>
             </div>
           </div>
