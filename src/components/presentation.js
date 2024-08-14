@@ -10,7 +10,7 @@ const Presentation = () => {
         <div className="fullScreen flexContainer">
             <div className="flex_1">
                 <h1 className="Text_8 titleClass">Magdalena Martínez Sánchez</h1>
-                <h2 className="Text_4 subtitleClass">{t('engineer')}</h2>
+                <h2 className="Text_4 subtitleClass" style={{"color":"white"}}>{t('engineer')}</h2>
             </div>
             <div className="flex_1 dashboardClass">
                 <div className="flexContainer center">

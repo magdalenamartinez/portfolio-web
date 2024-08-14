@@ -10,15 +10,19 @@ import i18n from './i18n/i18n';
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
+      <div className="appContainer">
       <Router basename={process.env.PUBLIC_URL}>
         <Header/>
+        <main className='mainContent'>
         <Routes>
           <Route path='/' element={<Index/>} />
           <Route path='/contact' element={<Contact/>} />
           <Route path="*" element={<Index />} /> 
         </Routes>
+        </main>
         <Footer/>
       </Router>
+      </div>
     </I18nextProvider>
   );
 }
