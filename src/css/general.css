@@ -10,16 +10,17 @@
 html, body {
     height: 100%;
     margin: 0;
+    background-color: black;
 }
 
 .appContainer {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Hace que el contenedor principal ocupe al menos la altura completa de la ventana */
+    min-height: 100vh;
 }
 
 .mainContent {
-    flex: 1; /* Hace que el contenido principal ocupe todo el espacio disponible */
+    flex: 1;
 }
 
 

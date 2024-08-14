@@ -10,7 +10,7 @@ import { Reveal } from './reveal.tsx';
 const Contact = () => {
     return(
       <Reveal>
-        <div className='bodyClass' style={{"backgroundColor":"black"}}>
+        <div className='bodyClass'>
           <div className="flexContainer boxClass">
             <div className="flex_1">
             <img src={mePhoto} alt="Descripción de la imagen" className="imageClass" />

@@ -19,5 +19,15 @@
 
 .linkClass2 {
     text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 15px;
     color: black;
+    transition: font-size 0.3s ease, color 0.3s ease-in-out;
+}
+
+.linkClass2:hover {
+    
+    font-size: 21px;
+    color:rgba(187, 18, 142, 0.867);
 }
