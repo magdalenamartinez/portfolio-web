@@ -33,7 +33,7 @@ const Header = () => {
             <ul className='ulClass'>
                 <li className='liClass'><Link className="linkClass" to="/">{t('home')}</Link></li>
                 <li className='liClass'><a className="linkClass" href={curriculum} download="curriculum.pdf">{t('resume')}</a></li>
-                <li className='liClass'><Link className="linkClass" to="#Projects">{t('projects')}</Link></li>
+                <li className='liClass'><a className="linkClass" href="https://github.com/magdalenamartinez">{t('projects')}</a></li>
                 <li className='liClass'><Link className="linkClass" to="/contact">{t('contact')}</Link></li>
             </ul>
         </nav>
