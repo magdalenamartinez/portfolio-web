@@ -10,3 +10,15 @@
 .flex_2 {
     flex: 2;
 }
+
+.rightHeader {
+    display: block;
+}
+
+@media (max-width: 1000px) {
+    .rightHeader {
+        display: none;
+    }
+  
+
+}
