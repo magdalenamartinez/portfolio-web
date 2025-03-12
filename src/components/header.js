@@ -25,7 +25,7 @@ const Header = () => {
             </div>
         </div>
         <div className='flex_1'>
-            <button onClick={() => changeLanguage('en')} className='buttonLanguage'><img src={englishIco} alt={"EN"} className="languageClass"/></button>
+            <buon onClick={() => changeLanguage('en')} className='buttonLanguage'><img src={englishIco} alt={"EN"} className="languageClass"/></button>
             <button onClick={() => changeLanguage('es')} className='buttonLanguage'><img src={spanishIco} alt={"ES"} className="languageClass"/></button>
             <button onClick={() => changeLanguage('fr')} className='buttonLanguage'><img src={frenchIco} alt={"FR"} className="languageClass"/></button>
         </div>
