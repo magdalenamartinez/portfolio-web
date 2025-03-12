@@ -25,7 +25,7 @@ const Header = () => {
             </div>
         </div>
         <div className='flex_1'>
-            <buon onClick={() => changeLanguage('en')} className='buttonLanguage'><img src={englishIco} alt={"EN"} className="languageClass"/></button>
+            <button onClick={() => changeLanguage('en')} className='buttonLanguage'><img src={englishIco} alt={"EN"} className="languageClass"/></button>
             <button onClick={() => changeLanguage('es')} className='buttonLanguage'><img src={spanishIco} alt={"ES"} className="languageClass"/></button>
             <button onClick={() => changeLanguage('fr')} className='buttonLanguage'><img src={frenchIco} alt={"FR"} className="languageClass"/></button>
         </div>
@@ -34,14 +34,10 @@ const Header = () => {
                 <FontAwesomeIcon icon={faBars} style={{"color":"white"}} className='iconClass'/>
             </button>
         </div>
-        <nav className={`flex_1 ${isOpen ? "open" : ""}`}>
-            <ul className={`menuList ${isOpen ? "open" : ""} ulClass`}>
                 <li className='liClass'><Link className="linkClass" to="/">{t('home')}</Link></li>
                 <li className='liClass'><a className="linkClass" href={curriculum} download="curriculum.pdf">{t('resume')}</a></li>
                 <li className='liClass'><a className="linkClass" href="https://github.com/magdalenamartinez">{t('projects')}</a></li>
                 <li className='liClass'><Link className="linkClass" to="/contact">{t('contact')}</Link></li>
-            </ul>
-        </nav>
       
     </div>
     );
