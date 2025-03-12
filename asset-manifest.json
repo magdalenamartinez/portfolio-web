@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-web/static/css/main.9e1d9aca.css",
-    "main.js": "/portfolio-web/static/js/main.9947b307.js",
+    "main.css": "/portfolio-web/static/css/main.31968dc8.css",
+    "main.js": "/portfolio-web/static/js/main.85c898ab.js",
     "static/js/453.90a7b0b2.chunk.js": "/portfolio-web/static/js/453.90a7b0b2.chunk.js",
     "static/media/mapbg.png": "/portfolio-web/static/media/mapbg.a9da4b5662e679657167.png",
     "static/media/me.jpg": "/portfolio-web/static/media/me.31b6b25b5dac1b2a7298.jpg",
-    "static/media/CV_EN.pdf": "/portfolio-web/static/media/CV_EN.bfb5731aee0956a87468.pdf",
+    "static/media/CV_EN.pdf": "/portfolio-web/static/media/CV_EN.948f7eba3e09c9303e51.pdf",
     "static/media/english.ico": "/portfolio-web/static/media/english.ef90b9c2dc608d3b12b0.ico",
     "static/media/french.ico": "/portfolio-web/static/media/french.4dcac6cf7bc1a66fc53e.ico",
     "static/media/spanish.ico": "/portfolio-web/static/media/spanish.32ecebb1c260b816494b.ico",
     "static/media/tryhackme.png": "/portfolio-web/static/media/tryhackme.a1e6f88cd5c0ae7da106.png",
     "index.html": "/portfolio-web/index.html",
-    "main.9e1d9aca.css.map": "/portfolio-web/static/css/main.9e1d9aca.css.map",
-    "main.9947b307.js.map": "/portfolio-web/static/js/main.9947b307.js.map",
+    "main.31968dc8.css.map": "/portfolio-web/static/css/main.31968dc8.css.map",
+    "main.85c898ab.js.map": "/portfolio-web/static/js/main.85c898ab.js.map",
     "453.90a7b0b2.chunk.js.map": "/portfolio-web/static/js/453.90a7b0b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e1d9aca.css",
-    "static/js/main.9947b307.js"
+    "static/css/main.31968dc8.css",
+    "static/js/main.85c898ab.js"
   ]
 }
